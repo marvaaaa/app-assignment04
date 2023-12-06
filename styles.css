@@ -1,0 +1,195 @@
+body{
+    background-color:#C7D0CE ;
+}
+nav{
+    background-color:black;
+    border:1px solid white;
+    display:flex;
+    justify-content:right;
+    position: fixed;
+    z-index: 1;
+    width:100%;
+    top:0;
+    left:0;}
+nav a{
+    color:#C7D0CE;
+    font-width: bold;
+    text-decoration: none;
+    width:60px;
+    text-transfore:uppercase;
+    padding:5px;
+    
+}
+a:hover{
+    color:black;
+    background-color:#C7D0CE;
+} 
+.airpod-containe{
+    width:800px;
+    background-color:black;
+    border:3px solid #263B47 ;
+    padding-right:30px;
+    padding-left:30px;
+    justify-content: center;
+    margin-top:10px;
+    margin-bottom:0px;
+     margin-left: auto;
+    margin-right: auto;
+}  
+.row1{
+    display:flex;
+    justify-content:center;
+    margin:10px;
+    gap:10px;
+    
+}
+img{
+    width:150px;
+}
+.row2{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+   
+   
+}
+.sab {
+    background-color:#263B47;
+    border:5px solid #C7D0CE ;
+    text-align:center;
+    text-width:bold;
+    text-color:black;
+    padding:10px;
+    width:200px;
+    hight:100px;
+    margin:70px;
+     border-radius: 10px;
+     margin-left: auto;
+    margin-right: auto;
+    position:relative;
+}
+h1,h2 {
+    text-color:#C7D0CE;
+}
+.image{
+    width:350px;
+    padding:20px;
+    margin-left:px;
+   border:3px solid #C7D0CE ;
+   background-color:#263B47;
+
+}
+.airpod-description{
+    color:#C7D0CE;
+    text-width:bold;
+
+}
+.text{
+    text-align:center;
+    color:#C7D0CE;
+    text-width:bold;
+    text-size:40px;
+    background-color:#263B47;
+    padding:5px;
+    border:3px solid #C7D0CE  ; 
+}
+footer{
+    
+    background-color:black;
+    border:1px solid white;
+    display:flex;
+    justify-content:center;
+    color:#C7D0CE;
+
+}
+.h2{
+
+    text-align:center;
+    color:#C7D0CE;
+    text-width:bold;
+    text-size:40px;
+    background-color:#263B47;
+    padding:5px;
+    border:3px solid #C7D0CE  ; 
+}
+.icon{
+    display:flex;
+    justify-content:center;
+
+}
+.icon1 img{
+    width:40px;
+    margin-left:3px;
+    margin-right:3px;
+    margin-top:-35px;
+    padding:7px;
+    border:2px solid #263B47 ;
+    background-color:#C7D0CE ;
+    border-radius:19px;
+
+}
+.tage{
+    background-color: #C7D0CE;
+    height: 80px;
+    margin-top: 0;
+    padding-top: 0;
+    position: absolute;
+    visibility: hidden;
+    bottom: 0px;
+    right: 0;
+    width: 100%;
+
+}
+.sab:hover .tage{
+    visibility:visible;
+    opacity: 0.7;
+}
+
+.h{
+    
+    text-align:left;
+    color:#C7D0CE;
+    text-width:bold;
+    text-size:40px;
+    background-color:#263B47;
+    padding:5px;
+    
+}
+.row{
+    flex-direction:column;
+    
+}
+.step{
+    width:100%;
+    height: 300px;
+
+    opacity: 0.7
+}
+
+
+
+.apple-img{
+    position:relative
+}
+.cag{
+    position: absolute;
+    right: 0;
+    top:0;
+
+
+    
+    text-align:left;
+    color:#C7D0CE;
+    text-width:bold;
+    text-size:30px;
+    background-color:#263B47;
+    
+
+    visibility: hidden;
+}
+.apple-img:hover .cag{
+    visibility: visible;
+}
+.pip{
+    border-radius:100%;
+}
